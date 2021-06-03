@@ -1,0 +1,16 @@
+.title{
+    font-weight: 3rem;
+}
+
+.media-body ol {
+    padding-top: 3rem;
+}
+
+.media-body ol li{
+    padding-top: 1rem;
+}
+
+.profile-pic_width{
+    width:30%;
+    padding-top: 2rem;
+}

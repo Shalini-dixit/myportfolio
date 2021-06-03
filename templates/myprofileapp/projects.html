@@ -1,0 +1,26 @@
+{% extends 'myprofileapp/base.html' %}
+    {% block body_block %}
+    {%  load static %}
+    
+    
+    <div class="media">
+        <img class="mr-3 profile-pic_width" src="{% static 'myprofileapp/images/proj-img.jpeg' %}" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0 title">Shalini Dixit</h5>
+          <ol>
+                <li> MEVE (Mercedes Vehicle Expose) </li>
+                <li>UMAS (User Management & Access System)</li>
+                <li>KAM System (Key Account Management)</li>
+                <li>Circus project</li>
+                <li>Django learning project</li>
+                <li>Python learning project</li>
+                <li>Frontend learning project</li>
+                
+                
+                  
+          </ol>
+        </div>
+      </div>
+
+
+    {% endblock %}

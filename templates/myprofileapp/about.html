@@ -1,0 +1,28 @@
+
+{% extends 'myprofileapp/base.html' %}
+    {% block body_block %}
+    {%  load static %}
+        
+    <div class="media">
+        <img class="mr-3 profile-pic_width" src="{% static 'myprofileapp/images/Shalini-profile-pic.jpeg' %}" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0 title">Shalini Dixit</h5>
+          <ol>
+                <li> Software Developer </li>
+                <li>Masters of computer Application</li>
+                <li>3+ Years in Java</li>
+                <li>3+ Years in Spring</li>
+                <li>3+ SQL, Pl/SQL, RDBMS</li>
+                <li>3+ Years in JavaScript, Html</li>
+                <li> 3+ years in Angular</li>
+                <li> Learning python, django framework </li>
+                <li> Learning Jquery </li>
+                <li> Learning MySQL </li>
+                
+                  
+          </ol>
+        </div>
+      </div>
+      
+
+    {% endblock %}

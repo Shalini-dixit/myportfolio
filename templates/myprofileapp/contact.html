@@ -1,0 +1,21 @@
+{% extends 'myprofileapp/base.html' %}
+    {% block body_block %}
+    {%  load static %}
+    
+    
+    <div class="media">
+        <img class="mr-3 profile-pic_width" src="{% static 'myprofileapp/images/Shalini-profile-pic.jpeg' %}" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0 title">Shalini Dixit</h5>
+          <ol>
+                <li>Email : shalinidixit.stkhlm@gmail.com</li>
+                <li>Contact no : 720213430</li>
+                <li>https://github.com/Shalini-dixit</li>
+                <li>Address: 12146, Hammerbyhöjden, Johanneshov</li>
+                  
+          </ol>
+        </div>
+      </div>
+
+
+    {% endblock %}
